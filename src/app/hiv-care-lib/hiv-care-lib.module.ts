@@ -142,6 +142,11 @@ import { TxMmdReportBaseComponent } from './tx-mmd-report/tx-mmd-report-base/tx-
 import { TxMmdReportPatientListComponent } from './tx-mmd-report/tx-mmd-report-patient-list/tx-mmd-report-patient-list.component';
 import { TxRttReportBaseComponent } from './tx-rtt-report/tx-rtt-report-base/tx-rtt-report-base.component';
 import { TxRttReportPatientListComponent } from './tx-rtt-report/tx-rtt-report-patient-list/tx-rtt-report-patient-list.component';
+import { RegistersDashboardComponent } from './registers/registers-dashboard.component';
+import { OtzRegisterComponent } from './registers/otz/otz-registers/otz-register.component';
+import { OTZRegisterFilterComponent } from './registers/otz/otz-register-filters/otz-register-filter.component';
+import { OTZRegisterPatientListComponent } from './registers/otz/otz-register-patient-list/otz-register-patient-list.component';
+import { OTZRegisterTabularComponent } from './registers/otz/otz-register-table/otz-register-tabular.component';
 import { AhdReportBaseComponent } from './ahd-monthly-report/ahd-report-base/ahd-report-base.component';
 import { AhdReportViewComponent } from './ahd-monthly-report/ahd-report-view/ahd-report-view.component';
 import { AhdMonthlyReportPatientlistComponent } from './ahd-monthly-report/ahd-monthly-report-patientlist/ahd-monthly-report-patientlist.component';
@@ -253,7 +258,6 @@ import { PlhivNcdV2ReportViewComponent } from './plhiv-ncd-v2-report/plhiv-ncd-v
     RegistersDashboardComponent,
     OTZRegisterFilterComponent,
     OTZRegisterPatientListComponent,
-    OTZRegisterReportViewComponent,
     OTZRegisterTabularComponent
     TxMlReportViewComponent,
     AhdReportViewComponent,
@@ -353,7 +357,6 @@ import { PlhivNcdV2ReportViewComponent } from './plhiv-ncd-v2-report/plhiv-ncd-v
     OtzRegisterComponent,
     OTZRegisterFilterComponent,
     OTZRegisterPatientListComponent,
-    OTZRegisterReportViewComponent,
     OTZRegisterTabularComponent
     TxRttReportPatientListComponent,
     AhdReportBaseComponent,
