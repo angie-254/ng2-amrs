@@ -250,6 +250,12 @@ import { PlhivNcdV2ReportViewComponent } from './plhiv-ncd-v2-report/plhiv-ncd-v
     Covid19TabularViewComponent,
     PrepMonthlyReportViewComponent,
     TxMlReportViewComponent,
+    RegistersDashboardComponent,
+    OTZRegisterFilterComponent,
+    OTZRegisterPatientListComponent,
+    OTZRegisterReportViewComponent,
+    OTZRegisterTabularComponent
+    TxMlReportViewComponent,
     AhdReportViewComponent,
     PlhivNcdV2ReportViewComponent
   ],
@@ -342,6 +348,13 @@ import { PlhivNcdV2ReportViewComponent } from './plhiv-ncd-v2-report/plhiv-ncd-v
     TxMmdReportBaseComponent,
     TxMmdReportPatientListComponent,
     TxRttReportBaseComponent,
+    TxRttReportPatientListComponent,
+    RegistersDashboardComponent,
+    OtzRegisterComponent,
+    OTZRegisterFilterComponent,
+    OTZRegisterPatientListComponent,
+    OTZRegisterReportViewComponent,
+    OTZRegisterTabularComponent
     TxRttReportPatientListComponent,
     AhdReportBaseComponent,
     AhdReportViewComponent,
