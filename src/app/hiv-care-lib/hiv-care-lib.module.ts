@@ -262,6 +262,7 @@ import { PlhivNcdV2ReportViewComponent } from './plhiv-ncd-v2-report/plhiv-ncd-v
     TxMlReportViewComponent,
     AhdReportViewComponent,
     PlhivNcdV2ReportViewComponent
+    RegistersDashboardComponent
   ],
   declarations: [
     Moh731TabularComponent,
@@ -365,6 +366,7 @@ import { PlhivNcdV2ReportViewComponent } from './plhiv-ncd-v2-report/plhiv-ncd-v
     PlhivNcdV2ReportBaseComponent,
     PlhivNcdV2ReportPatientListComponent,
     PlhivNcdV2ReportViewComponent
+    OtzRegisterComponent
   ],
   providers: [
     MOHReportService,
