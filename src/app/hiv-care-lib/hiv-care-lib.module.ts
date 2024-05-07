@@ -144,6 +144,8 @@ import { TxRttReportBaseComponent } from './tx-rtt-report/tx-rtt-report-base/tx-
 import { TxRttReportPatientListComponent } from './tx-rtt-report/tx-rtt-report-patient-list/tx-rtt-report-patient-list.component';
 import { RegistersDashboardComponent } from './registers/registers-dashboard.component';
 import { OtzRegisterComponent } from './registers/otz/otz-registers/otz-register.component';
+import { RegistersDashboardComponent } from './registers/registers-dashboard.component';
+import { OtzRegisterComponent } from './registers/otz/otz-registers/otz-register.component';
 import { OTZRegisterFilterComponent } from './registers/otz/otz-register-filters/otz-register-filter.component';
 import { OTZRegisterPatientListComponent } from './registers/otz/otz-register-patient-list/otz-register-patient-list.component';
 import { OTZRegisterTabularComponent } from './registers/otz/otz-register-table/otz-register-tabular.component';
@@ -254,6 +256,8 @@ import { PlhivNcdV2ReportViewComponent } from './plhiv-ncd-v2-report/plhiv-ncd-v
     Covid19ReportPatientListComponent,
     Covid19TabularViewComponent,
     PrepMonthlyReportViewComponent,
+    TxMlReportViewComponent,
+    RegistersDashboardComponent
     TxMlReportViewComponent,
     RegistersDashboardComponent,
     OTZRegisterFilterComponent,
@@ -366,6 +370,9 @@ import { PlhivNcdV2ReportViewComponent } from './plhiv-ncd-v2-report/plhiv-ncd-v
     PlhivNcdV2ReportBaseComponent,
     PlhivNcdV2ReportPatientListComponent,
     PlhivNcdV2ReportViewComponent
+    OtzRegisterComponent
+    TxRttReportPatientListComponent,
+    RegistersDashboardComponent,
     OtzRegisterComponent
   ],
   providers: [

@@ -70,6 +70,8 @@ import { PlhivNcdV2ReportPatientListComponent } from 'src/app/hiv-care-lib/plhiv
 import { PlhivNcdV2ReportComponent } from './plhiv-ncd-v2-report/plhiv-ncd-v2-report.component';
 import { RegistersDashboardComponent } from 'src/app/hiv-care-lib/registers/registers-dashboard.component';
 import { OtzRegisterComponent } from 'src/app/hiv-care-lib/registers/otz/otz-registers/otz-register.component';
+import { RegistersDashboardComponent } from 'src/app/hiv-care-lib/registers/registers-dashboard.component';
+import { OtzRegisterComponent } from 'src/app/hiv-care-lib/registers/otz/otz-registers/otz-register.component';
 
 const routes: Routes = [
   {
@@ -539,6 +541,19 @@ const routes: Routes = [
             component: AhdMonthlyReportPatientlistComponent
           }
         ]
+      }
+    ]
+  },
+  {
+    path: 'registers',
+    children: [
+      {
+        path: '',
+        component: RegistersDashboardComponent
+      },
+      {
+        path: 'otz-register',
+        component: OtzRegisterComponent
       }
     ]
   },
